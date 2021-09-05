@@ -1,5 +1,5 @@
 # ImageGenerationAPI
-This is a simple API, yet it can be useful, and I am planning on extending its feature in the future.
+This is a simple API built with Spring, yet it can be useful, and I am planning on extending its feature in the future.
 <br>
 You are welcome to clone this, and host your own and add features. But you can access an online version of it at: https://young-falls-42001.herokuapp.com/image-generator/
 
