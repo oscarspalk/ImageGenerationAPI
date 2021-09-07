@@ -23,6 +23,12 @@ public class ImageGeneration {
         generatedImage.setRGB(x, y, color.getRGB());
     }
 
+    public void drawLine(int startX, int startY, int endX, int endY, int strokeW,  Color color){
+        g2d.setColor(color);
+        g2d.setStroke(new BasicStroke(strokeW));
+        g2d.drawLine(startX, startY, endX, endY);
+    }
+
     public void drawImage(BufferedImage image){
         g2d.drawImage(image, 0,0, null);
         g2d.dispose();
