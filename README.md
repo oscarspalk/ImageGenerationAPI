@@ -1,7 +1,7 @@
 # ImageGenerationAPI
 This is a simple API built with Spring, yet it can be useful, and I am planning on extending its features in the future. I myself use this for my Discord bot.
 <br>
-You are welcome to clone this, and host your own and add features. But you can access an online version of it at: https://young-falls-42001.herokuapp.com/image-generator/
+You are welcome to clone this, and host your own and add features. But you can access an online version of it at: https://image-generation-api.herokuapp.com/
 
 ## /drawS Endpoint
 Parameters:
