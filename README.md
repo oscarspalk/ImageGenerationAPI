@@ -15,4 +15,4 @@ Parameters:
 - `yPosition` optional, defaults to 0
 - `centered` optional, defaults to false
 
-[Example](https://young-falls-42001.herokuapp.com/image-generator/drawS?string=oscar&xSize=600&centered=true&ySize=600&fontSize=120&fontColor=000000&backgroundColor=ffffff)
+[Example](https://image-generation-api.herokuapp.com/drawS?string=oscar&xSize=600&centered=true&ySize=600&fontSize=120&fontColor=000000&backgroundColor=ffffff)
