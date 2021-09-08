@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.awt.*;
 
 @RestController
-@RequestMapping("/image-generator")
+@RequestMapping("/")
 public class ImageGenerationController {
 
 
