@@ -1,4 +1,6 @@
 package me.olle.imagegeneration;
+import org.springframework.http.MediaType;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.font.FontRenderContext;
@@ -61,10 +63,10 @@ public class ImageGeneration {
 
 
     public byte[] buildImage(String format)  {
-        if(format == "jpg" || format == "png"){
+        if(format == MediaType.IMAGE_JPEG_VALUE || format == MediaType.IMAGE_PNG_VALUE){
             try {
                 ByteArrayOutputStream baos = new ByteArrayOutputStream();
-                ImageIO.write(generatedImage, "jpg", baos);
+                ImageIO.write(generatedImage, format == MediaType.IMAGE_PNG_VALUE ? "png" : "jpg", baos);
                 byte[] bytes = baos.toByteArray();
                 return bytes;
             }
